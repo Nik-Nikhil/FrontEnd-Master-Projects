@@ -1,5 +1,6 @@
 # Projects
-#FrontEnd Master Course 
-#HTML
-#CSS
-#JS
+
+#FrontEnd Master Course
+#HTML Project
+#CSS Projects
+#JS Project
