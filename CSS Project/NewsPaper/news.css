@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 30px;
+}
+
+.brand {
+  text-align: center;
+
+  font-size: 48px;
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+}
+.brand-header {
+  grid-area: header;
+}
+
+.nav-links {
+  grid-area: nav;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  border: 4px solid black;
+  margin: 0;
+  padding: 40px;
+}
+
+.article-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+}
+.section-link {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
+.article-img {
+  display: block;
+
+  margin: 0 auto;
+  max-height: 250px;
+}
+.story {
+  padding: 35px;
+  border-left: 4px solid black;
+  border-bottom: 3px solid black;
+}
+
+.story-1 {
+  grid-area: story-1;
+}
+.story-2 {
+  grid-area: story-2;
+}
+.story-3 {
+  grid-area: story-3;
+}
+
+.story-4 {
+  grid-area: story-4;
+}
+
+.story-5 {
+  grid-area: story-5;
+}
+
+.article-text {
+  text-align: center;
+}
+
+.story-3,
+.story-5 {
+  border-right: 4px solid black;
+}
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "story-1 story-2 story-3"
+    "story-4 story-5 story-5";
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}
