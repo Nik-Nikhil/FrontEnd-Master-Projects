@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.calc {
+  background-color: rgb(1, 1, 1);
+  width: 250px;
+  color: wheat;
+}
+
+.screen {
+  color: white;
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+  padding: 25px 12px;
+}
+
+.calc-btn {
+  background-color: silver;
+  color: rgb(44, 41, 41);
+  height: 100%;
+  width: 24.2%;
+  border: none;
+  border-radius: 0;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.calc-btn:hover {
+  background-color: #bdcded;
+}
+
+.calc-btn::after {
+  background-color: rgb(105, 98, 98);
+}
+
+.btn-rows {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.4%;
+}
+
+.double {
+  width: 35%;
+  padding-left: 7%;
+  padding-right: 4%;
+}
+.triple {
+  width: 49.5%;
+  padding-bottom: 4%;
+}
+.calc-btn:last-child {
+  background-color: orangered;
+  color: white;
+}
+
+.calc-btn:last-child:hover {
+  background-color: orange;
+  color: white;
+}
+
+.calc-btn:last-child:active {
+  background-color: rgb(192, 146, 61);
+  color: whitesmoke;
+}
+
+.calc-btn:last-child {
+  padding-bottom: 5;
+}
+
+.pos {
+  padding-bottom: 5%;
+}
+
+.pos1 {
+  padding-bottom: 1.85%;
+  padding-left: 4%;
+  margin-left: 0.4%;
+}
+
+.pos2 {
+  padding-bottom: 5%;
+  padding-right: 1.57%;
+  margin-right: -0.2%;
+}
